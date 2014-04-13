@@ -5,7 +5,7 @@
     android:background="@drawable/pscratchbg"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity" 
+    tools:context=".Access" 
     
     
     
@@ -21,15 +21,15 @@
         android:src="@drawable/fmarklogo" />
 
     <ImageButton
-        android:id="@+id/loginb"
+        android:id="@+id/defaultb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/fmarkloginb" />
+        android:src="@drawable/fmdefaultfire" />
 
     <ImageButton
-        android:id="@+id/registerb"
+        android:id="@+id/customb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/fmarkregisterb" />
+        android:src="@drawable/fmcustomfire" />
 
 </LinearLayout>
